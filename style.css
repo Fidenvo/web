@@ -1,12 +1,13 @@
 body {
-  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
 #vung01 {
-  display: table-cell;
-  width: 150px;
-  background: #cccccc;
-  vertical-align: top;
+  width: 200px;
+  background: #e0e0e0;
 }
 
 #vung01 ul {
@@ -16,16 +17,18 @@ body {
 }
 
 #vung01 ul li {
-  padding: 8px 5px;
+  padding: 12px 10px;
+  border-bottom: 1px solid #ccc;
 }
 
 #vung01 ul li:first-child {
   background: #777777;
   color: white;
+  font-weight: bold;
 }
 
 #vung02 {
-  display: table-cell;
-  vertical-align: top;
-  padding: 10px;
+  flex: 1;
+  padding: 20px;
+  background: white;
 }

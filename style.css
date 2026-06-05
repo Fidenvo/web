@@ -1,14 +1,13 @@
 #khung {
   border: 1px solid black;
-  min-height: 400px;
-  overflow: hidden;
+  display: table;
+  width: 100%;
 }
 
 #menu {
-  float: left;
+  display: table-cell;
   width: 150px;
   background: #cccccc;
-  min-height: 400px;
   padding: 5px;
 }
 
@@ -19,6 +18,6 @@
 }
 
 #noidung {
-  float: left;
+  display: table-cell;
   padding: 10px;
 }

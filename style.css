@@ -1,0 +1,19 @@
+#khung {
+  border: 1px solid black;
+}
+
+#menu {
+  float: left;
+  width: 150px;
+  background: #cccccc;
+}
+
+#trangchu {
+  background: #777777;
+  color: white;
+}
+
+#noidung {
+  float: left;
+  padding: 10px;
+}

@@ -1,16 +1,21 @@
 #khung {
   border: 1px solid black;
+  min-height: 400px;
+  overflow: hidden;
 }
 
 #menu {
   float: left;
   width: 150px;
   background: #cccccc;
+  min-height: 400px;
+  padding: 5px;
 }
 
 #trangchu {
   background: #777777;
   color: white;
+  padding: 3px;
 }
 
 #noidung {

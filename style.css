@@ -1,23 +1,25 @@
-#khung {
-  border: 1px solid black;
+body {
   display: table;
   width: 100%;
+  border: 1px solid black;
 }
 
-#menu {
+#vung01 {
   display: table-cell;
   width: 150px;
   background: #cccccc;
-  padding: 5px;
+  vertical-align: top;
 }
 
-#trangchu {
+#vung02 {
+  display: table-cell;
+  vertical-align: top;
+  padding: 10px;
+}
+
+li:first-child {
   background: #777777;
   color: white;
+  list-style: none;
   padding: 3px;
-}
-
-#noidung {
-  display: table-cell;
-  padding: 10px;
 }

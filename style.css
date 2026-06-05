@@ -17,7 +17,7 @@ body {
   padding: 10px;
 }
 
-li:first-child {
+#vung01 ul li:first-child {
   background: #777777;
   color: white;
   list-style: none;
